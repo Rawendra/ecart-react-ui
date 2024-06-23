@@ -1,0 +1,16 @@
+.btn {
+  margin-top: 10px;
+  border: 2px solid teal;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.btn:hover {
+  background-color: teal;
+  color: white;
+}
+
+.btn:disabled {
+  background-color: lightgrey;
+  border:  2px solid lightgrey;;
+  cursor: not-allowed;
+}
